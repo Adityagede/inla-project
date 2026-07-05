@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 import Beranda from '../pages/Beranda.vue'
 import TentangKami from '../pages/TentangKami.vue'
@@ -15,7 +15,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(/inla-project/),
+  history: createWebHashHistory(), // 🔥 INI YANG BENAR
   routes,
   scrollBehavior() {
     return { top: 0 }
