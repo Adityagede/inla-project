@@ -96,6 +96,8 @@ onUnmounted(() => {
 })
 </script>
 
+
+
 <template>
   <main class="min-h-screen bg-[#FAF6ED] text-[#1F241F]">
     <header class="fixed left-0 top-0 z-50 w-full">
