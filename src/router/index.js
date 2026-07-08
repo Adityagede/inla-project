@@ -15,7 +15,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(), // 🔥 INI YANG BENAR
+  history: createWebHashHistory(), 
   routes,
   scrollBehavior() {
     return { top: 0 }

@@ -1,6 +1,5 @@
 <template>
-  <div style="background:red; height:100vh;">
-    TEST MUNCUL
+  <div style="background:white; height:100vh;">
     <RouterView />
   </div>
 </template>
